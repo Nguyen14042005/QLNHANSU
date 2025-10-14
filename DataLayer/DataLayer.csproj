@@ -81,6 +81,9 @@
     <Compile Include="tb_CHUCVU.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
+    <Compile Include="tb_DanToc.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
     <Compile Include="tb_HOPDONG.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
@@ -106,6 +109,9 @@
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
     <Compile Include="tb_TANGCA.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_TonGiao.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
     <Compile Include="tb_TRINHDO.cs">

@@ -38,6 +38,8 @@ namespace DataLayer
         public Nullable<int> IDBP { get; set; }
         public Nullable<int> IDCV { get; set; }
         public Nullable<int> IDTD { get; set; }
+        public Nullable<int> IDDT { get; set; }
+        public Nullable<int> IDTG { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tb_BANGCONG> tb_BANGCONG { get; set; }

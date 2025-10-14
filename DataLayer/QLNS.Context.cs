@@ -29,6 +29,7 @@ namespace DataLayer
         public virtual DbSet<tb_BAOHIEM> tb_BAOHIEM { get; set; }
         public virtual DbSet<tb_BOPHAN> tb_BOPHAN { get; set; }
         public virtual DbSet<tb_CHUCVU> tb_CHUCVU { get; set; }
+        public virtual DbSet<tb_DanToc> tb_DanToc { get; set; }
         public virtual DbSet<tb_HOPDONG> tb_HOPDONG { get; set; }
         public virtual DbSet<tb_KHENTHUONG_KYLUAT> tb_KHENTHUONG_KYLUAT { get; set; }
         public virtual DbSet<tb_LOAICA> tb_LOAICA { get; set; }
@@ -38,6 +39,7 @@ namespace DataLayer
         public virtual DbSet<tb_PHONGBANG> tb_PHONGBANG { get; set; }
         public virtual DbSet<tb_PHUCAP> tb_PHUCAP { get; set; }
         public virtual DbSet<tb_TANGCA> tb_TANGCA { get; set; }
+        public virtual DbSet<tb_TonGiao> tb_TonGiao { get; set; }
         public virtual DbSet<tb_TRINHDO> tb_TRINHDO { get; set; }
         public virtual DbSet<tb_UNGLUONG> tb_UNGLUONG { get; set; }
     }
